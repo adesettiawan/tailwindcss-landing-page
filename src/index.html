@@ -6,9 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind CSS</title>
     <link href="/dist/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container mt-2 mb-64"></div>
+    <div class="container mt-60">
+      <div class="p-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
+        <h1
+          class="h-15 font-semibold text-xl text-slate-700 md:col-start-4 md:row-start-2 md:flex"
+        >
+          <span class="md:self-center">Welcome to my website</span>
+        </h1>
+        <div
+          class="h-15 text-lg font-bold text-slate-500 md:col-start-2 md:row-start-2 md:flex"
+        >
+          <span class="md:self-end">@mywebsite</span>
+        </div>
+
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] relative group overflow-hidden"
+        >
+          <div
+            class="w-full h-full bg-[url('./img/15.jpeg')] absolute group-hover:scale-125 transition-all duration-500 bg-cover bg-center group-hover:cursor-pointer"
+          ></div>
+        </div>
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-3"
+        ></div>
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3]"
+        ></div>
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3]"
+        ></div>
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3]"
+        ></div>
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-2"
+        ></div>
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-4"
+        ></div>
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3]"
+        ></div>
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-3"
+        ></div>
+        <div
+          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-3"
+        ></div>
+      </div>
+    </div>
     <div class="mb-64"></div>
   </body>
 </html>
