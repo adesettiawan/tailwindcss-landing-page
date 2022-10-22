@@ -7,64 +7,65 @@
     <title>Tailwind CSS</title>
     <link href="/dist/style.css" rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="container mt-60">
-      <div class="p-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
-        <h1
-          class="h-15 font-semibold text-xl text-slate-700 md:col-start-4 md:row-start-2 md:flex"
-        >
-          <span class="md:self-center">Welcome to my website</span>
-        </h1>
-        <div
-          class="h-15 text-lg font-bold text-slate-500 md:col-start-2 md:row-start-2 md:flex"
-        >
-          <span class="md:self-end">@mywebsite</span>
-        </div>
+    <!-- Hero Strat -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">
+              Hello 👋, saya
+              <span
+                class="block text-4xl font-bold text-dark my-1 lg:my-2 lg:text-5xl"
+                >Ade Setiawan</span
+              >
+            </h1>
+            <h2 class="font-medium text-lg text-slate-500 mb-5 lg:text-xl">
+              Frontend <span class="text-dark">Web Developer</span>
+            </h2>
+            <p class="text-slate-400 font-medium leading-relaxed mb-10">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Reprehenderit.
+            </p>
 
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] relative group overflow-hidden"
-        >
-          <div
-            class="w-full h-full bg-[url('./img/15.jpeg')] absolute group-hover:scale-125 transition-all duration-500 bg-cover bg-center group-hover:cursor-pointer"
-          ></div>
+            <a
+              href="#"
+              class="font-base text-white bg-primary py-3 px-7 rounded-full hover:opacity-80 hover:shadow-lg transition duration-300 ease-in-out"
+              >Contact me</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10">
+              <img
+                src="/dist/img/me.png"
+                alt="image"
+                class="max-w-full mx-auto"
+              />
+              <span
+                class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 lg:scale-125"
+              >
+                <svg
+                  width="400"
+                  height="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#0d9488"
+                    d="M37.1,-40.6C50,-33.4,63.6,-23.5,71.2,-8.4C78.7,6.7,80.3,27,72,41.7C63.6,56.4,45.4,65.5,27.1,70.4C8.8,75.3,-9.6,76,-21.1,67.7C-32.7,59.3,-37.6,41.9,-47.6,26.5C-57.7,11.1,-73,-2.2,-72.4,-14C-71.8,-25.7,-55.2,-35.9,-40.5,-42.7C-25.7,-49.4,-12.9,-52.9,-0.4,-52.4C12.1,-52,24.3,-47.7,37.1,-40.6Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
         </div>
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-3"
-        >
-          <div
-            class="w-full h-full bg-[url('./img/15.jpeg')] absolute group-hover:scale-125 transition-all duration-500 bg-cover bg-center group-hover:cursor-pointer"
-          ></div>
-        </div>
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3]"
-        ></div>
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3]"
-        ></div>
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3]"
-        ></div>
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-2"
-        ></div>
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-4"
-        ></div>
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3]"
-        ></div>
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-3"
-        ></div>
-        <div
-          class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-3"
-        ></div>
       </div>
-    </div>
-    <div class="mb-64"></div>
+    </section>
+    <!-- Hero end -->
   </body>
 </html>
